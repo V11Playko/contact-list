@@ -5,7 +5,7 @@
   "description": "A contact list made with NodeJS, new functions could be added in the future.",
   "main": "app.js",
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "nodemon ./bin/www",
     "test": "mocha"
   },
   "repository": {
