@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "description": "A contact list made with NodeJS, new functions could be added in the future.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
