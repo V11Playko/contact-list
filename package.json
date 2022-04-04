@@ -1,10 +1,11 @@
 {
   "name": "contact-list",
   "version": "1.0.0",
+  "private": true,
   "description": "A contact list made with NodeJS, new functions could be added in the future.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,17 @@
   "bugs": {
     "url": "https://github.com/V11Playko/contact-list/issues"
   },
-  "homepage": "https://github.com/V11Playko/contact-list#readme"
+  "homepage": "https://github.com/V11Playko/contact-list#readme",
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.2"
+  }
 }
