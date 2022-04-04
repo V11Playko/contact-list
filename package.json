@@ -1,0 +1,24 @@
+{
+  "name": "contact-list",
+  "version": "1.0.0",
+  "description": "A contact list made with NodeJS, new functions could be added in the future.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/V11Playko/contact-list.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Contacts",
+    "PostgreSQL"
+  ],
+  "author": "Heinner Vega <heinnervega20@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/V11Playko/contact-list/issues"
+  },
+  "homepage": "https://github.com/V11Playko/contact-list#readme"
+}
