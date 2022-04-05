@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="/stylesheets/bootstrap.css">
 </head>
 <body>
+   <div class="container">
+       <h1 class="text-center mt-5">Agregar nuevo contacto</h1>
     <form class="form-group" action="/addcontact" method="POST">
         <label for="exampleInputPassword1">Nombre</label>
         <input type="Text" class="form-control" name="nombre" id="exampleInputPassword1" placeholder="Ingrese un nombre">
@@ -15,7 +17,8 @@
         <label for="exampleInputPassword2">Numero</label>
         <input type="Text" class="form-control" name="numero" id="exampleInputPassword1" placeholder="Ingrese numero">
     
-        <input class="btn btn-success" type="submit" value="Agregar">
+        <input class="mt-2 btn btn-success" type="submit" value="Agregar">
     </form>
+   </div>
 </body>
 </html>

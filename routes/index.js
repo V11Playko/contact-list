@@ -34,6 +34,7 @@ router.get('/form', function(req, res, next) {
 /* POST home form page. */
 router.post('/addcontact', function(req, res,){
   console.log(req.body);
+  res.redirect('index.ejs',{contactos});
 })
 
 
