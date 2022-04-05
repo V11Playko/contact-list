@@ -7,18 +7,6 @@ const contactos =[
     nombre: 'Heinner',
     numero: '131231'
   },
-  {
-    nombre: 'Javier',
-    numero: '131231'
-  },
-  {
-    nombre: 'Tom',
-    numero: '131231'
-  },
-  {
-    nombre: 'Duke',
-    numero: '134331'
-  },
 ]
 
 /* GET home page. */
@@ -33,8 +21,8 @@ router.get('/form', function(req, res, next) {
 
 /* POST home form page. */
 router.post('/addcontact', function(req, res,){
-  console.log(req.body);
-  res.redirect('index.ejs',{contactos});
+  contactos.push(req.body)
+  res.redirect('/');
 })
 
 
