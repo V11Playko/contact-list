@@ -26,4 +26,15 @@ router.get('/', function(req, res, next) {
   res.render('index.ejs',{contactos});
 });
 
+/* GET home form page. */
+router.get('/form', function(req, res, next) {
+  res.render('form');
+});
+
+/* POST home form page. */
+router.post('/addcontact', function(req, res,){
+  console.log(req.body);
+})
+
+
 module.exports = router;
